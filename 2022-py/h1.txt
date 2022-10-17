@@ -1,0 +1,847 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="/cae/favicon.ico" type="image/x-icon" />
+<link href="/cae/sites/main/css/gyong.css" rel="stylesheet" type="text/css" />
+<link href="/cae/sites/main/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/cae/sites/main/css/style_new.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/cae/sites/main/js/jquery.min.js"></script>
+<title>中国工程院</title>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript" src="/cae/sites/main/js/jquery.min.js"></script>
+<script>
+	function sumitForm() {
+		$("#subForm")[0].submit();
+	}
+</script>
+<div class="inbig_bgtop">
+	<div class="top">
+  		<div class="top_mail fontst">
+
+			<div class="topdate">
+				<a href="https://mailsrv.cae.cn/" target="_blank" class="white12">进入邮件系统</a>&emsp;&emsp;<font size='2px'><script src="/cae/sites/main/js/date.js" type="text/javascript"></script></font>&emsp;&emsp;
+			</div>
+			<div class="tophome">
+				<span><img src="/cae/sites/main/images/h_01.png" /><a href="/cae/html/main/index.html">首页</a></span>
+
+			</div>
+		</div>
+		<div class="top_wx">
+			<div class="topnesoul">
+					<div class="nesoul">
+						<form method="POST" action="/cae/app/search/search.jsp" id="subForm">
+							<input type="hidden" name="area" value="3" />
+							<input type="hidden" name="webid" value="main" />
+							<dl> <input type="text" name="q" value="输入关键词" size="" class="inputnesoul" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue; this.style.color='#999'}"/></dl>
+							<dt><img style="cursor:pointer;" onclick="sumitForm();" src="/cae/sites/main/images/h_03.png" /></dt>
+						</form>
+					</div>
+			</div>		
+			<p><a href="http://en.cae.cn/en/" target="_blank" class="white12">English Version</a></p>
+		</div>
+	</div>
+
+	<div class="top_logo">
+		<div class="logo"><a href="/cae/html/main/index.html"><img src="/cae/sites/main/images/logo.png" /></a></div>
+		
+
+
+<link href="/cae/sites/main/css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/cae/sites/main/js/jr_change_div.js"></script>
+<script type="text/javascript">
+		$(function() {
+			for(var idListIndex = 1,columnIndex=306;idListIndex < 9 ; idListIndex++) {
+				//$("#9_"+idListIndex).bind('mouseover',function() {
+					//var curId = $(this).attr("id");
+					//curId = curId.substring(2);
+					$("#tab_9_"+idListIndex).load("/cae/html/main/col"+(columnIndex+parseInt(idListIndex))+"/column_"+(columnIndex+parseInt(idListIndex))+"_1.html");
+					//console.log("1#9_"+idListIndex+"----/cae/html/main/col"+(columnIndex+parseInt(idListIndex))+"/column_"+(columnIndex+parseInt(idListIndex))+"_1.html");
+				//});
+			}
+		});
+  </script>
+
+<div class="logo_r" id="anchor_point">
+		<div class="inmenu" id="anchor_points">
+			<ul>
+             
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_1' rel='tab_9_1'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,1,8,null)" onclick="columnOnclick('/html/main/col8/column_8_1.html',1)">工程院机构</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_2' rel='tab_9_2'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,2,8,null)" onclick="columnOnclick('/html/main/col48/column_48_1.html',2)">院士队伍</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_3' rel='tab_9_3'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,3,8,null)" onclick="columnOnclick('/html/main/col83/column_83_1.html',3)">战略咨询</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_4' rel='tab_9_4'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,4,8,null)" onclick="columnOnclick('/html/main/col99/column_99_1.html',4)">学术活动</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_5' rel='tab_9_5'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,5,8,null)" onclick="columnOnclick('/html/main/col104/column_104_1.html',5)">科技合作</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_6' rel='tab_9_6'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,6,8,null)" onclick="columnOnclick('/html/main/col123/column_123_1.html',6)">人才培养</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_7' rel='tab_9_7'>
+				 <h4>
+				 <a href="javascript:void(0)" onmousemove="showjinrtab(9,7,8,null)" onclick="columnOnclick('/html/main/col296/column_296_1.html',7)">对外交流</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+			<li>
+				 
+			   <div class="navm_tab_div_common" id='9_8' rel='tab_9_8'>
+				 <h4>
+				 <a href="http://tousu.cae.cn:8090/cae/pro/messageIssuedList" onmouseover="this.style.color='#0f5eca';" onmouseout="this.style.color='#000000';">互动交流</a>
+				 </h4>
+			   </div>
+				 
+			</li>
+			   
+		  </ul>
+		</div>
+		    <script>
+				function columnOnclick(columnlinkurl,coid){
+					
+				    location.href='/cae'+columnlinkurl+'';
+				}
+			</script>
+   <div style="height:46px;"></div>
+   <div id="tab_9_1" class="n_tab_div_con"  style="display:none">
+   </div>
+   <div id="tab_9_2" class="n_tab_div_con"  style="display:none">
+   </div>
+   <div id="tab_9_3" class="n_tab_div_con"  style="display:none">
+   </div>
+   <div id="tab_9_4" class="n_tab_div_con"  style="display:none">
+   </div>
+   <div id="tab_9_5" class="n_tab_div_con"  style="display:none">
+   </div>
+   <div id="tab_9_6" class="n_tab_div_con"  style="display:none">
+   </div>
+   <div id="tab_9_7" class="n_tab_div_con"  style="display:none">
+   </div>
+   
+</div>
+	</div>
+	
+</div>
+
+<div class="mdbg">
+<div class="mdbgline">
+		<div class="leftnav">
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" href="/cae/favicon.ico" type="image/x-icon" />
+<link href="/cae/sites/main/css/gyong.css" rel="stylesheet" type="text/css" />
+<link href="/cae/sites/main/css/style.css" rel="stylesheet" type="text/css" />
+<title>中国工程院</title>
+<script type="text/javascript" src="/cae/sites/main/js/jquery.min.js"></script>
+<script>
+	
+		$(function(){
+			//先把所有的二级li隐藏
+			$("div[id$='_00'][class='leftnav_02']").hide();
+			$("div[id$='_parent']").attr("isShow","false");
+			$("img[id^='img_'][id$='_parent']").attr("src","/cae/sites/main/images/jiant2.png");
+                 
+		    var myUrl = document.location.href;
+			
+			var CurrentID ="";
+			var tempUrl ="";
+			var containsValue ="0";
+			$("a[id^='a_li_']").each(function(i,n){
+				if("0"==containsValue){
+					tempUrl = $(this).attr("href");
+					if(tempUrl.length>=15){//四级目录
+					   if(tempUrl.indexOf("#")>-1)
+						tempUrl=tempUrl.substring(0,tempUrl.indexOf("#"));//消除锚点
+					   if(tempUrl.indexOf("_")>-1)
+					   tempUrl=tempUrl.substring(0,tempUrl.lastIndexOf("_"));//防止翻页时导致栏目选不中
+					}
+					if(myUrl.indexOf(tempUrl)>-1){
+						containsValue = "1";
+						CurrentID =  $(this).attr("id");
+						var u_agent = navigator.userAgent; 
+						//IE浏览器不支持重新加载页面定位到锚点，设为等页面加载完后，定位到锚点
+						if(u_agent.indexOf('Trident')>-1&&u_agent.indexOf('rv:11')>-1){ //IE11
+                           window.location.href='#anchor_point';//可能会影响其他内容展示	
+                        }else if(u_agent.indexOf('MSIE')>-1){  //IE11以下
+                           window.location.href='#anchor_point';//可能会影响其他内容展示	
+						}
+					
+					}
+				}
+			});
+			if(""!=CurrentID){
+				var tempID ="";
+				if(CurrentID.length>0){
+					tempID = CurrentID;
+					CurrentID = CurrentID.substring(2);
+					//此时说明单击的是二级ai_li_196_01
+					if(CurrentID.lastIndexOf("_")!=CurrentID.indexOf("_")){
+						$("li[id^='li_']").removeClass("cur");
+					    $("li[id='"+CurrentID+"']").addClass("cur");
+						$("h3[id^='li_']").removeClass("cur");
+					    $("h3[id='"+CurrentID+"']").addClass("cur");
+						
+						CurrentID =  CurrentID.substring(0,CurrentID.lastIndexOf("_"));
+						$("div[id='"+CurrentID+"_parent']").attr("isShow","true");
+						$("div[id='"+CurrentID+"_parent_00']").show();
+						$("img[id='img_"+CurrentID+"_parent']").attr("src","/cae/sites/main/images/jiant1.png");
+					}
+				}
+			}
+			
+			$("a[id$='_parent']").click(function(){				
+				tempID =$(this).attr("id");
+			    var tempID1=tempID.substring(2,tempID.length);
+				var isShow = $("div[id='"+tempID1+"']").attr("isShow");
+            var nextID = $(this).attr("next");
+				if("true"==isShow){
+			$("div[id='"+tempID1+"_00'][class='leftnav_02']").hide();
+			$("div[id='"+tempID1+"']").attr("isShow","false");
+			$("img[id='img_"+tempID1+"']").attr("src","/cae/sites/main/images/jiant2.png");
+				}
+				if("false"==isShow){
+					$("div[id$='_00'][class='leftnav_02']").hide();
+			        $("div[id$='_parent']").attr("isShow","false");
+					$("img[id^='img_'][id$='_parent']").attr("src","/cae/sites/main/images/jiant2.png");
+					
+					$("div[id='"+tempID1+"_00'][class='leftnav_02']").show();
+			        $("div[id='"+tempID1+"']").attr("isShow","true");
+					 $("img[id='img_"+tempID1+"']").attr("src","/cae/sites/main/images/jiant1.png");
+				}
+			});
+		});
+</script>
+</head>
+<body>
+<div class="leftnav_big">
+	<div class="leftnav_top_zw fontwr" ><img src="/cae/sites/main/images/left_navico01.jpg" />
+	院士队伍
+
+<!--
+院士名单
+
+-->
+</div>
+		<div class="leftnav_top_line"><img src="/cae/sites/main/images/navline.jpg" /></div>
+
+				<!--有下级栏目的该栏目链接为空-->
+	    	<div class="leftnav_01 leftnav_01_kb" id="li_47_parent" isShow="false"><span><img  src="/cae/sites/main/images/navico_1.png" /></span><h3><a href="#anchor_points" class="white14" id="a_li_47_parent">院士名单</a><a ></a></h3><div class="leftjian"><img id="img_li_47_parent" src="/cae/sites/main/images/jiant2.png" /></div></div>		 
+		  	<div class="leftnav_02" id="li_47_parent_00">
+				<ul>
+					   
+								 <li id="li_47_01"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_01"><a href="/cae/html/main/col48/column_48_1.html" class="lieb_menu" id="a_li_47_01">全体院士名单</a></h3></li>
+							   
+								 <li id="li_47_02"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_02"><a href="/cae/html/main/col53/column_53_1.html" class="lieb_menu" id="a_li_47_02">学部院士名单</a></h3></li>
+							   
+								 <li id="li_47_03"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_03"><a href="/cae/html/main/col49/column_49_1.html" class="lieb_menu" id="a_li_47_03">资深院士名单</a></h3></li>
+							   
+								 <li id="li_47_04"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_04"><a href="/cae/html/main/col51/column_51_1.html" class="lieb_menu" id="a_li_47_04">香港院士名单</a></h3></li>
+							   
+								 <li id="li_47_05"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_05"><a href="/cae/html/main/col52/column_52_1.html" class="lieb_menu" id="a_li_47_05">台湾院士名单</a></h3></li>
+							   
+								 <li id="li_47_06"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_06"><a href="/cae/html/main/col50/column_50_1.html" class="lieb_menu" id="a_li_47_06">外籍院士名单</a></h3></li>
+							   
+								 <li id="li_47_07"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_07"><a href="/cae/html/main/col56/column_56_1.html" class="lieb_menu" id="a_li_47_07">已故院士名单</a></h3></li>
+							   
+								 <li id="li_47_08"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_08"><a href="/cae/html/main/col57/column_57_1.html" class="lieb_menu" id="a_li_47_08">已故外籍院士名单</a></h3></li>
+							   
+								 <li id="li_47_09"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_09"><a href="/cae/html/main/col54/column_54_1.html" class="lieb_menu" id="a_li_47_09">中央委员、中央候补委员和中央纪委委员中的院士名单</a></h3></li>
+							   
+								 <li id="li_47_010"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_010"><a href="/cae/html/main/col55/column_55_1.html" class="lieb_menu" id="a_li_47_010">两会代表中院士名单</a></h3></li>
+							   
+								 <li id="li_47_11"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_47_11"><a href="/cae/html/main/col248/column_248_1.html" class="lieb_menu" id="a_li_47_11">历届院士增选名单</a></h3></li>
+							
+				</ul>
+				</div>
+			
+				<!--有下级栏目的该栏目链接为空-->
+	    	<div class="leftnav_01 leftnav_01_kb" id="li_64_parent" isShow="false"><span><img  src="/cae/sites/main/images/navico_1.png" /></span><h3><a href="#anchor_points" class="white14" id="a_li_64_parent">院士增选</a><a ></a></h3><div class="leftjian"><img id="img_li_64_parent" src="/cae/sites/main/images/jiant2.png" /></div></div>		 
+		  	<div class="leftnav_02" id="li_64_parent_00">
+				<ul>
+					   
+								 <li id="li_64_01"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_64_01"><a href="/cae/html/main/col245/column_245_1.html" class="lieb_menu" id="a_li_64_01">公布名单</a></h3></li>
+							   
+								 <li id="li_64_02"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_64_02"><a href="/cae/html/main/col244/column_244_1.html" class="lieb_menu" id="a_li_64_02">增选信息</a></h3></li>
+							   
+								 <li id="li_64_03"><span><img src="/cae/sites/main/images/navico_2.png" /></span><h3 id="li_64_03"><a href="/cae/html/main/col329/column_329_1.html" class="lieb_menu" id="a_li_64_03">历届院士增选情况</a></h3></li>
+							
+				</ul>
+				</div>
+			   
+			<div class="leftnav_01 leftnav_01_kb" id="li_327"><span><img src="/cae/sites/main/images/navico_1.png" /></span><h3><a href="https://ysg.ckcest.cn/gzbb/user/login" class="white14" id="a_li_327">院士年度工作信息采集</a></h3></div>
+			
+</div>
+</body>
+</html>
+<!-- 模板文件为:sites/main/left.jsp -->
+
+        </div>
+
+        <script>
+		  $(function(){
+			 $("#right_2").addClass("cu"); 
+			});
+		</script>
+   
+		
+		<div class="right_md">
+		<div class="right_block">
+				<div class="right_md_top"><img src="/cae/sites/main/images/dianq_ico01.jpg" />当前位置：<a href="/cae/html/main/index.html" class="grey12">首页</a> > <a href="/cae/html/main/col48/column_48_1.html" class="grey12">院士队伍</a> > <a href="/cae/html/main/col48/column_48_1.html" class="grey12 ">院士名单</a> > <a id="xbdisplay" href="/cae/html/main/col53/column_53_1.html" class="grey12">学部院士名单</a></div>
+            	<div class="list2_navm clearfix">
+				  <ul>
+				   
+				
+				   
+					<li id="right_1">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb1.html">机械与运载工程学部</a>
+				    </li>
+					<script>
+                       $("#right_1").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_1").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_2">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb2.html">信息与电子工程学部</a>
+				    </li>
+					<script>
+                       $("#right_2").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_2").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_3">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb3.html">化工、冶金与材料工程学部</a>
+				    </li>
+					<script>
+                       $("#right_3").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_3").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_4">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb4.html">能源与矿业工程学部</a>
+				    </li>
+					<script>
+                       $("#right_4").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_4").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_5">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb5.html">土木、水利与建筑工程学部</a>
+				    </li>
+					<script>
+                       $("#right_5").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_5").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_6">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb6.html">环境与轻纺工程学部</a>
+				    </li>
+					<script>
+                       $("#right_6").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_6").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_7">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb7.html">农业学部</a>
+				    </li>
+					<script>
+                       $("#right_7").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_7").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_8">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb8.html">医药卫生学部</a>
+				    </li>
+					<script>
+                       $("#right_8").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_8").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				   
+					<li id="right_9">
+				    <img src="/cae/sites/main/images/yuan_01.png" /><a href="/cae/html/main/col53/column_53_xb9.html">工程管理学部</a>
+				    </li>
+					<script>
+                       $("#right_9").mouseover(function (){ 				   
+                         $(this).addClass("cu");  
+    
+                     });  
+                           
+                       $("#right_9").mouseout(function () {  
+                     $(this).removeClass("cu"); 
+                     $("#right_2").addClass("cu");					 
+                   });  
+            
+                     </script>
+				
+				  </ul>
+		       </div>
+				<div class="right_md_ysmd">
+			   
+							<div class="ysmd_bt clearfix">信息与电子工程学部(130人)</div>
+			
+							<div class="ysxx_namelist clearfix">
+							<ul>
+				  
+					<li class="name_list"><a href="/cae/html/main/colys/56107454.html" target="_blank">柴天佑</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/12726075.html" target="_blank">陈纯</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/67451694.html" target="_blank">陈杰</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/75507885.html" target="_blank">陈志杰</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/06494507.html" target="_blank">陈左宁(女)</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/28155795.html" target="_blank">戴浩</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/02548488.html" target="_blank">戴琼海</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/34375328.html" target="_blank">邓中翰</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42653126.html" target="_blank">丁文华</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/06378275.html" target="_blank">段宝岩</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/18376218.html" target="_blank">樊邦奎</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/71871048.html" target="_blank">方滨兴</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42628684.html" target="_blank">费爱国</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/65531189.html" target="_blank">封锡盛</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/37193416.html" target="_blank">高文</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42578985.html" target="_blank">桂卫华</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42602659.html" target="_blank">何友</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/63558738.html" target="_blank">姜会林</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/00679747.html" target="_blank">李德毅</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/65508027.html" target="_blank">李国杰</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/68444168.html" target="_blank">李天初</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/75665618.html" target="_blank">李同保</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/68400379.html" target="_blank">廖湘科</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/65663444.html" target="_blank">刘玠</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/20981933.html" target="_blank">刘永坚</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/43684913.html" target="_blank">刘韵洁</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/92838139.html" target="_blank">刘泽金</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/61048627.html" target="_blank">陆军</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/71846900.html" target="_blank">卢锡城</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/58540646.html" target="_blank">罗先刚</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/00855664.html" target="_blank">吕跃广</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/25348561.html" target="_blank">潘云鹤</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/13235199.html" target="_blank">苏东林(女)</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/12734420.html" target="_blank">孙家广</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/55288821.html" target="_blank">孙凝晖</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/11224492.html" target="_blank">谭久彬</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/81222515.html" target="_blank">王恩东</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/98979217.html" target="_blank">王沙飞</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/18156242.html" target="_blank">王天然</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/64524659.html" target="_blank">王耀南</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/39314645.html" target="_blank">魏毅寅</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/77159094.html" target="_blank">吴汉明</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/56860866.html" target="_blank">邬贺铨</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/15116624.html" target="_blank">邬江兴</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/95341770.html" target="_blank">吴建平</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/28404165.html" target="_blank">吴曼青</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/03022221.html" target="_blank">吴伟仁</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/15848126.html" target="_blank">吾守尔·斯拉木</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/06592364.html" target="_blank">徐扬生</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42690479.html" target="_blank">杨小牛</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/07317131.html" target="_blank">姚富强</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/50359665.html" target="_blank">于全</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/33760304.html" target="_blank">余少华</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42742182.html" target="_blank">张广军</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/47166146.html" target="_blank">张平</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/25953934.html" target="_blank">张尧学</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/42717920.html" target="_blank">赵沁平</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/75813398.html" target="_blank">郑南宁</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/93930946.html" target="_blank">郑纬民</a></li>
+							
+							</ul>
+							</div>
+							
+							<div class="zsys">资深院士：</div>
+							<div class="ysxx_namelist clearfix">
+							<ul>
+			 
+					<li class="name_list"><a href="/cae/html/main/colys/00359700.html" target="_blank">贲德</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/62847675.html" target="_blank">蔡鹤皋</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/03148832.html" target="_blank">蔡吉人</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/46415565.html" target="_blank">陈鲸</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/40737958.html" target="_blank">陈敬熊</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/65934655.html" target="_blank">陈俊亮</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/50811146.html" target="_blank">陈良惠</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/93147390.html" target="_blank">范滇元</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/59547288.html" target="_blank">方家熊</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/46745566.html" target="_blank">高洁</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/93378245.html" target="_blank">龚惠兴</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/37509876.html" target="_blank">宫先仪</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/43617362.html" target="_blank">龚知本</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/65316987.html" target="_blank">郭桂蓉</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/87543016.html" target="_blank">何德全</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/90703829.html" target="_blank">何新贵</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/90565044.html" target="_blank">胡光镇</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/00712070.html" target="_blank">胡启恒(女)</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/46419136.html" target="_blank">黄培康</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/28332211.html" target="_blank">姜文汉</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/12259293.html" target="_blank">金国藩</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/43271672.html" target="_blank">金怡濂</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/37268788.html" target="_blank">李伯虎</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/71187532.html" target="_blank">李德仁</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/93783386.html" target="_blank">李乐民</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/53878278.html" target="_blank">李三立</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/34527840.html" target="_blank">李幼平</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/03815214.html" target="_blank">梁骏吾</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/21140242.html" target="_blank">林永年</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/81814731.html" target="_blank">凌永顺</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/34208705.html" target="_blank">刘尚合</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/21368053.html" target="_blank">刘永坦</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/03613481.html" target="_blank">陆建勋</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/25190801.html" target="_blank">马远良</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/50703973.html" target="_blank">毛二可</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/09519603.html" target="_blank">倪光南</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/50534074.html" target="_blank">潘君骅</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/21643372.html" target="_blank">沈昌祥</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/50377091.html" target="_blank">宋健</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/78347966.html" target="_blank">苏君红</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/00479821.html" target="_blank">孙优贤</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/75444523.html" target="_blank">孙玉</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/81313231.html" target="_blank">汪成为</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/59644255.html" target="_blank">王任享</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/78659734.html" target="_blank">王小谟</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/56662328.html" target="_blank">王越</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/37319920.html" target="_blank">王子才</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/84113761.html" target="_blank">韦钰(女)</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/87783443.html" target="_blank">魏正耀</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/46755281.html" target="_blank">魏子卿</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/96944507.html" target="_blank">吴澄</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/34835943.html" target="_blank">许居衍</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/75121273.html" target="_blank">许祖彦</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/40928797.html" target="_blank">杨士中</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/40878839.html" target="_blank">姚骏恩</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/40340079.html" target="_blank">叶铭汉</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/84938366.html" target="_blank">叶尚福</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/12832037.html" target="_blank">叶声华</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/93546417.html" target="_blank">张光义</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/12518369.html" target="_blank">张履谦</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/18291711.html" target="_blank">张明高</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/71684008.html" target="_blank">张锡祥</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/15625575.html" target="_blank">张钟华</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/40700214.html" target="_blank">赵伊君</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/28823140.html" target="_blank">赵梓森</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/68335171.html" target="_blank">钟山</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/43919202.html" target="_blank">周立伟</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/40276559.html" target="_blank">周寿桓</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/15852756.html" target="_blank">周仲义</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/09293199.html" target="_blank">朱高峰</a></li>
+							
+					<li class="name_list"><a href="/cae/html/main/colys/53677236.html" target="_blank">庄松林</a></li>
+							
+							</ul>
+							</div>							
+                  
+				</div>
+		</div>	
+		</div>
+</div>
+</div>
+
+
+
+<script>
+function addFavCommon() {
+ try {
+    window.external.addFavorite('http://www.cae.cn', '中国工程院');//IE
+ } catch(e) {
+  try {
+      window.sidebar.addPanel('中国工程院', 'http://www.cae.cn', '中国工程院');//firefox
+  } catch(e) { 
+      alert("加入收藏失败，请使用Ctrl+D进行添加");
+  }
+ }
+}
+</script>
+<div class="foot">
+	<div class="foot_nav"><a href="/cae/html/main/col224/column_224_1.html">关于我们</a>    |    <a href="/cae/html/main/col221/column_221_1.html">网站地图</a>    |    <a href="/cae/html/main/col225/column_225_1.html">联系我们</a>    |    <a onclick="addFavCommon();" href="javascript:void(0);">收藏本站</a></div>
+	<div class="foot_text">
+		<div class="fontfoot">
+			<div>
+				版权所有：中国工程院&ensp;&ensp;网站标识码：bm50000001&ensp;&ensp;备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备14021735号-3</a>&ensp;&ensp;<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202008133"><img src="/cae/images/gonganico.png" style="margin-bottom:-5px;height: 20px;"/>京公网安备 11010202008133号</a>
+			</div>
+			<div>
+				地址：北京市西城区冰窖口胡同2号&ensp;&ensp;邮政信箱：北京8068信箱&ensp;&ensp;邮编：100088&ensp;&ensp;<a class="blue" href="/cae/html/main/col225/column_225_1.html" target=_blank>工程院位置图</a>
+			</div>
+		 	<div>
+		 		电话：8610-59300000&ensp;&ensp;传真：8610-59300001&ensp;&ensp;邮箱：bgt@cae.cn
+		 	</div>
+		</div>
+		<div class="picf">
+			<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/33/000/0000/60905169/CA330000000609051690002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+			<script id="_jiucuo_" sitecode='bm50000001' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+		</div>
+	</div>
+</div>
+<script>
+(function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
+b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
+s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
+})(window,document,"script","_qha",8996,false);
+</script>
+
+</body>
+</html>
+<!-- 模板文件为:sites/main/nav_xbysmd.jsp -->
