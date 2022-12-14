@@ -1,11 +1,11 @@
 ﻿#coding=utf-8
-def change(money)
+def change(money): ####
     tmp=['总金额：'+str(money)+'元']
     cate=(100,50,20,10,5,2,1,0.5,0.2,0.1)
     sy=int(money*10)
     while True:
         if sy==0:
-            continue
+            break ####
         else:
             for row in cate:
                 tmpStr=""
@@ -16,7 +16,7 @@ def change(money)
                     if jine>=10:
                         tmpStr=str(jine//10)+"元"+str(m)+'张'
                     else:
-                        tmpStr=str(jine)+"角"+int(m)+'张'
+                        tmpStr=str(jine)+"角"+str(m)+'张' ####
                     tmp.append(tmpStr)
     return tmp
 money=float(input("请输入金额："))

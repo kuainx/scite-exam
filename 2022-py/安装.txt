@@ -1,0 +1,6 @@
+进入python安装目录（注意需要是idle的python目录，考试机有多个python）
+C:\Program Files\Python311\Scripts
+shift+右键调出命令提示符  或win+r   cd 目录
+pip install D:\Github\scite-exam\2022-py\simple_math-1.1.0-py3-none-any.whl
+
+如果给到的是此类setup.py的包，替换whl名称即可
